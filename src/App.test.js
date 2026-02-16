@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders password generator title', () => {
+test('renders SejanPass title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Password Gen/i);
+  const linkElement = screen.getByText(/SejanPass/i);
   expect(linkElement).toBeInTheDocument();
 });
